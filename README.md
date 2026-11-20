@@ -81,9 +81,16 @@ Pandas and Polars run the same logic in their own APIs (see `src/benchmark.py`).
 ├── paper/
 │   ├── G14_Paper_IEEE.pdf  # the full paper (IEEE conference format)
 │   └── latex/              # LaTeX source: paper.tex, IEEEtran.cls, figures
-└── slides/
-    └── G14_Presentation_Slides.pdf  # 14-slide, 10-minute presentation
+├── slides/
+│   └── G14_Presentation_Slides.pdf  # 14-slide, 10-minute presentation
+└── project/                # separate DBMS mini project: Course Prerequisite Graph
+    ├── report/             #   project report (PDF)
+    ├── sql/                #   SQL version (recursive CTE)
+    └── cypher/             #   Neo4j / Cypher version
 ```
+
+The `project/` folder holds our separate DBMS mini project, *Course Prerequisite Graph*
+(Neo4j vs SQL). See [project/README.md](project/README.md).
 
 ## Test environment
 
