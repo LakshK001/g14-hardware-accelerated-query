@@ -1,0 +1,9 @@
+# Generated data (re-created by run_all.py; ~220 MB)
+data/
+results/quick/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
