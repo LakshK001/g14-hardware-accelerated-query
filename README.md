@@ -26,7 +26,7 @@ All engines return identical answers, and the benchmark checks this automaticall
 
 ## Quick start
 
-Requires Python 3.10+ (results were produced with 3.13) and about 1 GB of free RAM.
+Requires **Python 3.12 or newer** (results were produced with 3.13) and about 1 GB of free RAM. Check with `python --version`.
 
 ```bash
 git clone https://github.com/LakshK001/g14-hardware-accelerated-query.git

@@ -1,4 +1,4 @@
-# Exact versions used for the results in the paper (Python 3.13)
+# Exact versions used for the results in the paper (needs Python 3.12+; we used 3.13)
 pandas==3.0.5
 polars==2.1.0
 duckdb==2.0.1
