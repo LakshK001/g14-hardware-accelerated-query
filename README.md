@@ -1,6 +1,6 @@
 # G14 · Hardware-Accelerated Query Processing
 
-Code, data generator and results for the paper ([read the PDF](paper/G14_Paper_IEEE.pdf)):
+Code, data generator and results for the paper ([read the PDF](paper/G14_Paper_IEEE.pdf) · [slides](slides/G14_Presentation_Slides.pdf)):
 
 > **Vectorised Execution versus Multi-Core Parallelism: Benchmarking Pandas, Polars and DuckDB on Group-By and Join Queries**
 > Krish, Krish Singhal, Laksh Kapoor, Lucky. Dept. of Information Technology, Dr B R Ambedkar NIT Jalandhar, 2026.
@@ -78,9 +78,11 @@ Pandas and Polars run the same logic in their own APIs (see `src/benchmark.py`).
 │   ├── summary_largest.csv # speed-ups at 10M rows
 │   └── environment.json    # library versions and CPU of the run
 ├── figures/                # fig1_query_time, fig2_scaling, fig3_speedup (PNG + PDF)
-└── paper/
-    ├── G14_Paper_IEEE.pdf  # the full paper (IEEE conference format)
-    └── latex/              # LaTeX source: paper.tex, IEEEtran.cls, figures
+├── paper/
+│   ├── G14_Paper_IEEE.pdf  # the full paper (IEEE conference format)
+│   └── latex/              # LaTeX source: paper.tex, IEEEtran.cls, figures
+└── slides/
+    └── G14_Presentation_Slides.pdf  # 14-slide, 10-minute presentation
 ```
 
 ## Test environment
